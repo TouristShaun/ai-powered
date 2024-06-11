@@ -1,43 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Countdown to an AI-Powered Ecosystem | AI-PSA</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #282c34;
-            color: white;
-            margin: 0;
-        }
-        pre {
-            font-size: 2rem;
-            line-height: 1.5;
-            text-align: center;
-        }
-        .credit {
-            position: absolute;
-            bottom: 10px;
-            font-size: 1rem;
-            color: #ccc;
-        }
-    </style>
-</head>
-<body>
-    <div>
-        <pre id="countdown"></pre>
-        <div class="credit">
-            Original code by <a href="https://twitter.com/aemkei" target="_blank" style="color: #61dafb;">Martin Kleppe</a>
-        </div>
-    </div>
+<script src="quine_clock_explained.js"></script>
 
-    <script>
-        (r=n=>setInterval(t=>{for(j=o="\n",y=5;y--;document.body['innerHTML']="<pre>&lt"+(S="script\n")+o+"\n\n&lt/"+S)for(x=-001;x++<63;o+=`(r=${r})()`[j++].fontcolor(c?'#FF0':'#444'))c=x/2%4<3&&[31599,19812,14479,31207,23524,29411,29679,30866,31727,31719,1040][(D=Date)(16+(x/8|0))<10?D:10]&1<<(x/2|0)%4+3*y},100))()
-    </script>
-</body>
-</html>
+<style>
+    body {
+        background-color: black;
+        color: #FFF;
+        padding: 9vw;
+        font-size: 20px;
+    }
+</style>
